@@ -1,0 +1,14 @@
+{
+  "/shoes/*" : {
+      "target" : "http://localhost:3000/shoes",
+      "pathRewrite": {
+          "^/shoes" : ""
+      }
+  },
+  "/brands/*" : {
+      "target" : "http://localhost:3000/brands",
+      "pathRewrite": {
+          "^/brands" : ""
+      }
+  }
+}

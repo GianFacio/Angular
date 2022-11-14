@@ -1,0 +1,33 @@
+<div align="center">
+  <div class="card mb-6" style="max-width: 500px;">
+      <div class="row no-gutters">
+          <div class="col">
+              <div class="card-body">
+                  <h5 class="card-title">{{shoe!.name}}</h5>
+                  <p class="card-text">Color: {{shoe!.color}}</p>
+                  <p class="card-text">Size: {{shoe!.size}}</p>
+                  <p class="card-text">Price: {{shoe!.price}}</p>
+                  <table>
+                      <tr>
+                          <td width="50px" align="center">
+                              <a [routerLink]="['/edit', shoe!.shoeId]">
+                                  <i class="fa fa-edit">Edit</i>
+                              </a>
+                          </td>
+                          <td width="50px" align="center">
+                              <a [routerLink]="['/delete', shoe!.shoeId]">
+                                  <i class="fa fa-trash">Trash</i>
+                              </a>
+                          </td>
+                      </tr>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="collapsed" id="collapseMaterials" style="margin-left: 50px; margin-right: 50px;"
+  align="center">
+
+</div>

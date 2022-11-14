@@ -1,0 +1,8 @@
+h1{
+  font-size: 100px;
+  text-align: center;
+  padding: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  color: beige;
+}
